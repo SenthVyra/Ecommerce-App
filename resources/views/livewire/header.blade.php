@@ -15,46 +15,29 @@
       <nav aria-label="Global" class="hidden md:block">
         <ul class="flex items-center gap-6 text-sm">
           <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Explore More </a>
+          </li>
+
+          <li>
             <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Contacts </a>
           </li>
 
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-          </li>
         </ul>
       </nav>
 
       <div class="flex items-center gap-4">
         <div class="sm:flex sm:gap-4">
           <a
-            class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            class="block rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700"
             href="#"
           >
-            Login
+            Get Started
           </a>
 
-          <a
-            class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-            href="#"
-          >
-            Register
-          </a>
         </div>
 
         <button
