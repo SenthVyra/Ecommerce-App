@@ -8,7 +8,7 @@
             <h2 class="line-clamp-2 px-3">{{ $product->description }}</h2>
             <div class="flex justify-between px-3 py-2">
                 <div class="bg-green-200 p-1 rounded-md">
-                    <h2 class="text-1xl">{{ $product->category->name }}</h2>
+                    <h2 class="text-1xl">{{ $product->name }}</h2>
                 </div>
                 <h2 class="text-1xl font-medium">${{ $product->price }}</h2>
             </div>

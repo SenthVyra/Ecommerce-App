@@ -73,8 +73,8 @@
 								<div class="ps-6 lg:ps-3 xl:ps-0 pe-6 py-3">
 								  <a wire:navigate href="">
 									  <div class="flex items-center gap-x-3">
-									  
-										  <img class="inline-block size-[38px] rounded-full" src="{{ Storage::url($product->image)}}" alt="Avatar">
+									
+										  <img class="inline-block size-[38px] rounded-full" src="{{ asset('storage/' . $product->image) }}" alt="Avatar">
 										  <div class="grow">
 											  <span class="block text-sm font-semibold text-gray-800">{{str($product->name)->words(3)}}</span>
 										  </div>
@@ -98,7 +98,7 @@
 							  <td class="size-px whitespace-nowrap">
 								  <div class="px-6 py-3">
 									  <span class="py-1 px-1.5 inline-flex items-center gap-x-1 text-xs font-medium bg-teal-100 text-teal-800 rounded-full">
-										  {{$product->category->name}}
+										  {{$product->name}}
 									  </span>
 								  </div>
 								</td>

@@ -6,7 +6,7 @@
             <h2 class="p-1  text-gray-500 line-clamp-4">{{ $product->description }}</h2>
             <div class="flex gap-10">
                 <div class="bg-green-200 p-1 rounded-md">
-                    <h2 class="text-1xl ">{{ $product->category->name }}</h2>
+                    <h2 class="text-1xl ">{{ $product->name }}</h2>
                 </div>
                 <h2 class="text-2xl font-medium">${{ $product->price }}</h2>
             </div>
